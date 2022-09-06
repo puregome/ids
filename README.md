@@ -1,6 +1,6 @@
 # ids
 
-Ids of tweets written in Dutch containing the phrase `covid` or `corona` used in the project PuReGoME. Ids are stored one on each line in zipped text files per day in folders per year. For example, the ids of tweets of Friday 13 March 2020 can be found in the file 2020/20200313.zip
+Ids of tweets written in Dutch containing the phrase `covid` or `corona` used in the project [PuReGoME](https://research-software-directory.org/projects/puregome). Ids are stored one on each line in zipped text files per day in folders per year. For example, the ids of tweets of Friday 13 March 2020 can be found in the file 2020/20200313.zip
 
 The tweets have been selected with the regular expression `covid|corona` . The expression also selects words of which `covid` or `corona` is a part, like `coronatest`. The language of a tweet is determined by the Twitter metadata field `lang`. Only tweets with the `lang` value `nl` have been included.
  
